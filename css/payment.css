@@ -1,0 +1,117 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+
+  height: 80vh;
+}
+form{
+  width: 30%;
+}
+.container {
+  align-self: center;
+  display: flex;
+  gap: 1rem;
+  flex-direction: column;
+  border: 1px solid lightgray;
+}
+.details{
+  padding: 0.5rem;
+  color: #fff;
+  background-color:#28a745;
+  border: 1px solid #28a745;
+  margin-bottom: 1rem;
+  border-radius: 5px;
+
+}
+.details p{
+  font-weight: bold;
+  color: #000;
+}
+.details p span{
+  color: #fff;
+
+  font-weight: normal;
+}
+.paddin {
+  padding: 0.5rem;
+}
+.paddin h3 {
+  text-align: center;
+}
+.icons {
+  display: flex;
+  justify-content: space-between;
+}
+.icons img {
+  height: 4rem;
+}
+.center {
+  display: flex;
+  gap: 1rem;
+  justify-content: space-between;
+  padding: 0.5rem;
+}
+
+.inputs {
+  display: flex;
+  flex-direction: column;
+  border-top: 1px solid lightgray;
+}
+.center .inputs {
+  border: none;
+}
+.border {
+  padding: 0.5rem;
+  border-top: 1px solid lightgray;
+}
+
+input {
+  height: 1.6rem;
+  padding: 0.3rem;
+  border-radius: 3px;
+  border: 1px solid lightgray;
+}
+.total-price {
+  display: flex;
+  justify-content: space-between;
+  margin: 0.5rem;
+  padding: 0.5rem;
+  border-radius: 5px;
+  color: #fff;
+  background-color: #007bff;
+}
+.price{
+background-color: #fff;
+text-align: center;
+color: #000;
+width: 15%;
+border-radius: 5px;
+}
+.buttons{
+  display: flex;
+  gap: 1rem;
+  justify-content: space-around;
+}
+button{
+  cursor: pointer;
+  height: 2rem;
+  border: none;
+  width: 50%;
+}
+.cancel{
+color: #000;
+}
+.submit{
+  background-color: #28a745;
+}
+button {
+  color: #fff;
+  border-radius: 5px;
+}

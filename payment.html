@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Pay</title>
+
+    <!-- Javascript -->
+    <script src="./scripts/payment.js" defer></script>
+
+    <link rel="stylesheet" href="./css/payment.css" />
+  </head>
+  <body>
+    <form action="">
+      <div class="details"></div>
+      <div class="container">
+        <div class="paddin">
+          <h3>Payment Details</h3>
+          <div class="icons">
+            <img
+              src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/Mastercard-Curved.png"
+              alt="mastercard"
+            />
+            <img
+              src="https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTr2Cbo1TNkOFYW6FLTRFTiO4Kd1XUdMOKaqOQQusg&s"
+              alt="discover"
+            />
+            <img
+              src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/Paypal-Curved.png"
+              alt="paypal"
+            />
+            <img
+              src="https://cdn0.iconfinder.com/data/icons/credit-card-debit-card-payment-PNG/128/American-Express-Curved.png"
+              alt=""
+            />
+          </div>
+        </div>
+        <div>
+          <div class="inputs border">
+            <label for="">NAME ON CARD</label>
+            <input
+              class="card-name"
+              type="text"
+              placeholder="Name On Credit Card"
+              required
+            />
+          </div>
+          <div class="inputs border">
+            <label for="">CARD NUMBER</label>
+            <input
+              class="card-no"
+              type="number"
+              placeholder="Valid Card Number"
+              readonly
+            />
+          </div>
+          <div class="center border">
+            <div class="inputs">
+              <label for="">EXPIRATION DATE</label>
+              <input
+                class="date"
+                type="date"
+                name=""
+                id=""
+                placeholder=""
+                required
+              />
+            </div>
+            <div class="inputs">
+              <label for="">CVV CODE</label>
+              <input
+                class="cvv"
+                type="text"
+                name=""
+                id=""
+                placeholder=""
+                required
+              />
+            </div>
+          </div>
+
+          <!-- <div class="paddin inputs">
+            <label for="">CARD OWNER</label>
+            <input type="text" name="" id="" placeholder="" required />
+          </div> -->
+          <div class="">
+            <div class="total-price">
+              <p>Total Price</p>
+              <p class="price">$ 80</p>
+            </div>
+          </div>
+        </div>
+
+        <div class="buttons border">
+          <button type="button" class="cancel">Cancel Order</button>
+          <button type="submit" class="submit">Check Out</button>
+        </div>
+      </div>
+    </form>
+  </body>
+</html>
